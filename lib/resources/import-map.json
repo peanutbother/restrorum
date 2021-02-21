@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "mandarine/": "https://deno.land/x/mandarinets@v2.3.2/"
+  }
+}

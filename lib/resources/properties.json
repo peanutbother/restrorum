@@ -1,0 +1,14 @@
+{
+  "mandarine": {
+    "server": {
+      "port": 8080,
+      "host": "localhost"
+    },
+    "resources": {
+      "staticFolder": "./lib/resources/assets"
+    },
+    "templateEngine": {
+      "path": "./lib/resources/templates"
+    }
+  }
+}

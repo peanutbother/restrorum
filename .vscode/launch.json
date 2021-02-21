@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Program",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": [
+        "run",
+        "-c",
+        "tsconfig.json",
+        "--import-map=./lib/resources/import-map.json",
+        "--allow-all",
+        "--unstable"
+      ],
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/mod.ts",
+      "outFiles": ["${workspaceFolder}/**/*.ts"],
+      "outputCapture": "std"
+    }
+  ]
+}
